@@ -53,6 +53,8 @@ ll mul(ll a, ll b) {
     return (mul(a, c, mod) * 1000000 % mod + (a * (b % 1000000)) % mod) % mod;
 }
 
+vector<vector<int>> arr(n, vector<int>(m, 0));
+
 int main () {
   ios_base::sync_with_stdio(false);
   cin.tie(0); cout.tie(0);
